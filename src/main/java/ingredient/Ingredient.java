@@ -16,4 +16,13 @@ public class Ingredient {
     public double getPrice() {
         return price;
     }
+
+
+    @Override
+    public String toString() {
+        return "Ingredient{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
